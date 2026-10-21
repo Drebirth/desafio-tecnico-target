@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Depurar Desafio 1",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build desafio1",
+      "program": "${workspaceFolder}/Desafio1/bin/Debug/net10.0/Desafio1.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/Desafio1",
+      "stopAtEntry": false,
+      "console": "internalConsole"
+    }
+  ]
+}
